@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('../assets/hero-bg.jpg') no-repeat center center/cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+/* Buttons */
+.btn-warning:hover {
+  background-color: #ffcc00;
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Button styling */
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Products Page */
+.card {
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+#searchInput {
+  max-width: 300px;
+}
+
+/* Cart Page */
+#cartContainer img {
+  border-radius: 10px;
+}
+
+#cartContainer .row:hover {
+  background-color: #f8f9fa;
+}
+
+/* Contact Page */
+#contactForm {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#contactForm button:hover {
+  background-color: #ffcc00;
+  transition: 0.3s ease;
+}
